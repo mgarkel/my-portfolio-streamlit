@@ -1,59 +1,74 @@
-
 {
-    "title": {
-        "media": {
-          "url": "",
-          "caption": " <a target=\"_blank\" href=''>credits</a>",
-          "credit": ""
-        },
-        "text": {
-          "headline": "Welcome to<br>Streamlit Timeline",
-          "text": "<p>A Streamlit Timeline component by integrating TimelineJS from Knightlab</p>"
-        }
+  "title": {
+    "media": {
+      "url": "",
+      "caption": "<a target=\"_blank\" href=''>credits</a>",
+      "credit": ""
     },
-    "events": [
-      {
-        "media": {
-          "url": "https://vimeo.com/143407878",
-          "caption": "How to Use TimelineJS (<a target=\"_blank\" href='https://timeline.knightlab.com/'>credits</a>)"
-        },
-        "start_date": {
-          "year": "2016",
-          "month":"1"
-        },
-        "text": {
-          "headline": "TimelineJS<br>Easy-to-make, beautiful timelines.",
-          "text": "<p>TimelineJS is a populair tool from Knightlab. It has been used by more than 250,000 people to tell stories seen hundreds of millions of times, and is available in more than sixty languages. </p>"
-        }
+    "text": {
+      "headline": "Work Experience Timeline",
+      "text": "<p>Please click through to review my work experience</p>"
+    }
+  },
+  "events": [
+    {
+      "start_date": { "year": "2020", "month": "6" },
+      "end_date": { "year": "2020", "month": "8" },
+      "text": {
+        "headline": "Backend Intern @ Spotify",
+        "text": "<ul><li>Built podcast ingestion pipeline</li><li>Automated internal reporting tools</li></ul>"
       },
-      {
-        "media": {
-          "url": "https://www.youtube.com/watch?v=CmSKVW1v0xM",
-          "caption": "Streamlit Components (<a target=\"_blank\" href='https://streamlit.io/'>credits</a>)"
-        },
-        "start_date": {
-          "year": "2020",
-          "month":"7",
-          "day":"13"
-        },
-        "text": {
-          "headline": "Streamlit Components<br>version 0.63.0",
-          "text": "Streamlit lets you turn data scripts into sharable web apps in minutes, not weeks. It's all Python, open-source, and free! And once you've created an app you can use our free sharing platform to deploy, manage, and share your app with the world."
-        }
-      },
-      {
-        "media": {
-          "url": "https://github.com/innerdoc/streamlit-timeline/raw/main/component-logo.png",
-          "caption": "github/innerdoc (<a target=\"_blank\" href='https://www.github.com/innerdoc/'>credits</a>)"
-        },
-        "start_date": {
-          "year": "2021",
-          "month":"2"
-        },
-        "text": {
-          "headline": "Streamlit TimelineJS component",
-          "text": "Started with a demo on https://www.innerdoc.com/nlp-timeline/ . <br>Then made a <a href='https://github.com/innerdoc/streamlit-timeline'>Streamlit component</a> of it. <br>Then made a <a href='https://pypi.org/project/streamlit-timeline/'>PyPi package</a> for it."
-        }
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+        "caption": "Spotify Internship"
       }
-    ]
+    },
+    {
+      "start_date": { "year": "2021", "month": "1" },
+      "end_date": { "year": "2021", "month": "12" },
+      "text": {
+        "headline": "Software Engineer @ Google",
+        "text": "<ul><li>Worked on scalable internal APIs</li><li>Migrated legacy systems to GCP</li></ul>"
+      },
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+        "caption": "Google Engineering"
+      }
+    },
+    {
+      "start_date": { "year": "2022", "month": "2" },
+      "end_date": { "year": "2022", "month": "11" },
+      "text": {
+        "headline": "Data Engineer @ Netflix",
+        "text": "<ul><li>Optimized data pipelines for personalization</li><li>Worked closely with ML teams</li></ul>"
+      },
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+        "caption": "Netflix Team"
+      }
+    },
+    {
+      "start_date": { "year": "2023", "month": "1" },
+      "end_date": { "year": "2023", "month": "8" },
+      "text": {
+        "headline": "Lead Engineer @ Airbnb",
+        "text": "<ul><li>Led full-stack dev team on host dashboard</li><li>Improved load time by 30%</li></ul>"
+      },
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Bélo.svg",
+        "caption": "Airbnb Engineering"
+      }
+    },
+    {
+      "start_date": { "year": "2023", "month": "9" },
+      "text": {
+        "headline": "Sr. Engineer @ OpenAI",
+        "text": "<ul><li>Developing tools for LLM application developers</li><li>Leading DX team for ChatGPT plugins</li></ul>"
+      },
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/OpenAI_Logo.svg",
+        "caption": "OpenAI DX Team"
+      }
+    }
+  ]
 }
