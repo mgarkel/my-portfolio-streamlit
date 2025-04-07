@@ -1,0 +1,28 @@
+[project]
+name = "my-portfolio-streamlit"
+version = "0.1.0"
+description = "My Personal Wesbite"
+authors = [
+    {name = "Manav Garkel"},
+    {email= "manav.garkel@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<3.9.7 || >3.9.7,<4.0.0"
+dependencies = [
+    "pillow (>=11.1.0,<12.0.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "streamlit (>=1.44.1,<2.0.0)",
+    "streamlit-lottie (>=0.0.5,<0.0.6)",
+    "streamlit-timeline (>=0.0.2,<0.0.3)",
+    "llama-index (>=0.12.28,<0.13.0)",
+    "llama-cpp-python (>=0.3.8,<0.4.0)",
+    "langchain (>=0.3.23,<0.4.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false

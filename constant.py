@@ -1,16 +1,19 @@
 info = {
-   "Pronoun": "her", 
-   "Name": "Vicky",
-   "Full_Name": "Vicky Kuo",
-   "Intro": "A Tech Educator and AI Enthusiast at cognitiveclass.ai",
-   "About":"Hey there, I'm Vicky! I'm passionate about leveraging data and technology to drive meaningful insights and solutions in business. Check out my free courses and projects on cognitiveclass.ai: https://cognitiveclass.ai/",
-   "Tableau":"https://public.tableau.com/app/profile/vickytc/viz/SunnybrookTeam/Overview",
-   "Medium":"https://medium.com/@vicky-note/about",
-   "City":"Toronto, Canada",
-   "Photo":"""<a href=\"https://www.linkedin.com/in/vicky-tck/\"><img src=\"https://sn-assets.s3.us.cloud-object-storage.appdomain.cloud/projects/profile.png" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a>""",
-   "Email": "vicky.kuo.contact@gmail.com"
+   "Pronoun": "him/he",
+   "Name": "Manav",
+   "Full_Name": "Manav Garkel",
+   "Intro": "A Software Engineer with a passion for backend development, data engineering, and ML/AI technologies, driven to build scalable, intelligent systems that solve real-world problems",
+   "About":"I’m a backend-focused software engineer with a strong background in building scalable data systems, APIs, and automation pipelines. "
+           "I specialize in developing robust backend services that power intelligent applications—from financial forecasting tools to cloud-native data workflows. "
+           "My experience spans Python, Node.js, and Java, with expertise in databases like MongoDB, DynamoDB, and SQL-based systems. "
+           "I’ve designed and deployed solutions leveraging RESTful APIs, distributed processing, and large language models (LLMs) to turn raw data into actionable insights. "
+           "I’m passionate about solving complex problems at the intersection of data engineering, AI, and cloud infrastructure.",
+   "City":"Alexandria, Virginia",
+   "Photo":"""""",
+   "Email": "manav.garkel@gmail.com"
 }
 
+# TODO: Remove embedd rss and endorsements
 embed_rss= {
     'rss':"""<div style="overflow-y: scroll; height:500px; background-color:white;"> <div id="retainable-rss-embed" 
         data-rss="https://medium.com/feed/@vicky-note"
