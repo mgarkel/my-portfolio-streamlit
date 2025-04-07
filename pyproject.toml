@@ -26,3 +26,24 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.11.4"
+pre-commit = "^4.2.0"
+
+[tool.ruff]
+line-length = 80
+indent-width = 4
+target-version = "py311"  # or whatever your Python version is
+fix = true  # Enable autofix
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+ignore = ["E501"]  # Example: ignore long lines if you want
+
+[tool.ruff.format]
+quote-style = "double"  # or "single"
+indent-style = "space"
+docstring-code-format = true
+
+
