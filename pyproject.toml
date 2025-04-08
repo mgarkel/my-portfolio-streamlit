@@ -16,7 +16,8 @@ dependencies = [
     "llama-index (>=0.12.28,<0.13.0)",
     "llama-cpp-python (>=0.3.8,<0.4.0)",
     "langchain (>=0.3.23,<0.4.0)",
-    "streamlit-timeline @ git+https://github.com/innerdoc/streamlit-timeline.git"
+    "streamlit-vis-timeline (>=0.3.0,<0.4.0)",
+    "setuptools (>=78.1.0,<79.0.0)"
 ]
 
 

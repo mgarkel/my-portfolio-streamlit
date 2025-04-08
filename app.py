@@ -3,7 +3,7 @@ import json
 import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
-from streamlit_timeline import timeline
+from streamlit_timeline import st_timeline
 from llama_index.core import (
     VectorStoreIndex,
     SimpleDirectoryReader,
@@ -175,15 +175,35 @@ with st.container():
 
 # ----------------- timeline ----------------- #
 with st.container():
-    st.markdown("""""")
+    st.markdown(
+        """
+    <style>
+    .vis-item {
+        white-space: normal !important;
+        overflow: visible !important;
+        text-overflow: unset !important;
+        max-width: none !important;
+        border-radius: 8px;
+        padding: 6px 12px;
+        font-size: 14px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    }
+    </style>
+    """,
+        unsafe_allow_html=True,
+    )
     st.subheader("📌 Career Snapshot")
-
-    # load data
-    with open("example.json", "r") as f:
-        data = f.read()
-
+    options = {
+        "stack": True,
+        "orientation": "top",
+        "zoomable": True,
+        "editable": False,
+        "margin": {"item": 30, "axis": 20},
+        "verticalScroll": True,
+        "horizontalScroll": True,
+    }
     # render timeline
-    timeline(data, height=400)
+    st_timeline(work_experience, options=options, height="750px")
 
     # -----------------  contact  ----------------- #
     with col2:
