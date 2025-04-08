@@ -2,7 +2,7 @@ info = {
     "Pronoun": "him",
     "Name": "Manav",
     "Full_Name": "Manav Garkel",
-    "Intro": "A Software Engineer with a passion for backend development, data engineering, and ML/AI technologies, driven to build scalable, intelligent systems that solve real-world problems",
+    "Intro": "A Software Engineer with a passion for backend development, data engineering, and ML/AI technologies - driven to build scalable, intelligent systems that solve real-world problems",
     "About": "Backend engineer focused on building scalable data systems, APIs, and automation workflows in Python."
     " Experienced with SQL and NoSQL databases, cloud-native infrastructure, and integrating LLMs into production systems.",
     "City": "Alexandria, Virginia",

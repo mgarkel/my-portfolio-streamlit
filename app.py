@@ -17,6 +17,3 @@ chat_with_bot()
 
 # ----------------- Visual Gap ----------------- #
 st.markdown("<div style='margin-top: 40px;'></div>", unsafe_allow_html=True)
-
-# -----------------  contact  ----------------- #
-render_contact_section(info["Email"])
