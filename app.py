@@ -1,10 +1,9 @@
 import streamlit as st
 from components.chatbot import chat_with_bot
-from components.contact import render_contact_section
 from components.info import render_intro_section
 from constant import *
 
-st.set_page_config(page_title="Template", layout="wide", page_icon="👧🏻")
+st.set_page_config(page_title="Home", layout="wide", page_icon="👨🏻‍💻")
 
 # ----------------- info ----------------- #
 render_intro_section(info)

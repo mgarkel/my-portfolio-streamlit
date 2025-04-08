@@ -1,23 +1,57 @@
 import streamlit as st
-from PIL import Image
 from utils.general_utils import local_css, render_sidebar_photo
+
+st.set_page_config(page_title="Hobbies", page_icon="🎯")
 
 local_css("style/style.css")
 render_sidebar_photo()
 
-img_1 = Image.open("images/1.jpg")
-img_2 = Image.open("images/2.png")
-img_3 = Image.open("images/3.png")
+st.title("🎯 Hobbies & Interests")
 
-st.title("🫶 Hobbies")
+st.markdown("Here’s a snapshot of what I enjoy outside of work:")
 
-col1, col2, col3 = st.columns(3)
+# Define hobbies as (emoji, title, description)
+hobbies = [
+    (
+        "🏋️‍♂️",
+        "Weightlifting",
+        "Building strength and discipline through consistent training.",
+    ),
+    ("🚶", "Daily Walks", "Time to decompress, reflect, and refresh."),
+    (
+        "🎸",
+        "Learning Guitar",
+        "Currently jamming through beginner songs and chords.",
+    ),
+    (
+        "🏎️",
+        "Formula 1",
+        "Obsessed with strategy and the speed — race days are sacred.",
+    ),
+    ("⚽", "Soccer", "Die-hard Manchester United fan. GGMU ❤️"),
+    (
+        "✈️",
+        "Travelling",
+        "Always planning the next adventure to explore new cultures.",
+    ),
+    (
+        "👨‍👩‍👧‍👦",
+        "Friends & Family",
+        "Making memories with the people who matter most.",
+    ),
+]
 
-with col1:
-    st.image(img_1)
+# Layout: 2 hobbies per row
+cols = st.columns(2)
 
-with col2:
-    st.image(img_2)
-
-with col3:
-    st.image(img_3)
+for idx, (emoji, title, desc) in enumerate(hobbies):
+    with cols[idx % 2]:
+        st.markdown(
+            f"""
+                <div class='hobby-card'>
+                    <h3 style='margin-bottom: 0.5rem; color: white;'>{emoji} {title}</h3>
+                    <p style='margin: 0; font-size: 15px;'>{desc}</p>
+                </div>
+                """,
+            unsafe_allow_html=True,
+        )
