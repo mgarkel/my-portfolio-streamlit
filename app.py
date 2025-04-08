@@ -20,8 +20,5 @@ render_intro_section(
 # ----------------- skillset ----------------- #
 render_skills_section()
 
-# ----------------- timeline ----------------- #
-render_career_snapshot(work_experience)
-
 # -----------------  contact  ----------------- #
 render_contact_section(info["Email"])

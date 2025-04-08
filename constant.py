@@ -19,13 +19,14 @@ work_experience = {
         "start": "2021-05-01",
         "end": "2025-04-01",
         "bullets": [
-            "Developed a forecasting and analysis tool to reduce manual reporting, improve risk assessment accuracy, and accelerate credit decision-making for Multi-Family loans",
+            "Developing a forecasting and analysis tool to reduce manual reporting, improve risk assessment accuracy, and accelerate credit decision-making for Multi-Family loans",
             "Collaborated with stakeholders to gather data and reporting requirements for ERCF capital reporting, leading end-to-end development through UAT and production deployment",
             "Partnering with stakeholders to gather requirements and lead end-to-end development of capital forecasting reports by integrating financial forecasting results with ERCF spot capital, from initial design to production",
             "Maintaining codebase with 100% unit test coverage, developing integration and regression tests, conducting code reviews, and mentoring junior engineers",
             "Developed reusable microservices and APIs to provide streamlined access to company data sources, improving developer efficiency and integration workflows",
         ],
         "className": "freddie",
+        "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGzKBAwTUdgrw/company-logo_200_200/company-logo_200_200/0/1719929504536/freddie_mac_logo?e=1749686400&v=beta&t=HM12FwpIBpnYl20chy1oMq4hKCd7X3v_2UJUhgWmSN4",
     },
     2: {
         "job_title": "AI Software Engineer",
@@ -33,11 +34,12 @@ work_experience = {
         "start": "2023-03-01",
         "end": "2024-03-01",
         "bullets": [
-            "Built a web-scraping application to automate the collection and classification of 10,000 daily news articles...",
-            "Applied NER to extract company mentions and leveraged GPT-3.5/4-turbo for multi-label classification of news events...",
-            "Architected a robust, cloud-native data pipeline with AWS DynamoDB, SQS, and S3...",
+            "Built a web-scraping application to automate the collection and classification of 10,000 daily news articles, enabling a new feature in the premium subscription service that provides users with actionable insights on company events",
+            "Applied NER to extract company mentions and leveraged GPT-3.5/4-turbo for multi-label classification of news events (e.g., mergers, layoffs, product launches), driving structured, actionable insights from unstructured text",
+            "Architected a robust, cloud-native data pipeline with AWS DynamoDB, SQS, and S3 to support scalable processing and access to enriched classification data",
         ],
         "className": "selling",
+        "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQE71GztFp03VA/company-logo_200_200/company-logo_200_200/0/1705421353782/infotelligent_logo?e=1749686400&v=beta&t=DB2r3I9iXmyjcdHcz_3s1uvh9asmxTKVGS_4kPUO3lw",
     },
     3: {
         "job_title": "Software Engineer",
@@ -45,11 +47,12 @@ work_experience = {
         "start": "2021-02-01",
         "end": "2021-09-01",
         "bullets": [
-            "Created a RESTful service that the main application consumes to send automated text messages to users",
+            "Created a RESTFUL service that the main application consumes to send automated text messages to users",
             "Implemented frontend and backend functionality to provide a new phone-number lookup feature",
             "Designed and implemented a new algorithm to efficiently display data windows based on screen resolution and size",
         ],
         "className": "synclayer",
+        "logo_url": "https://www.synclayerinc.com/wp-content/uploads/2018/04/synclayer_logo.png",
     },
     4: {
         "job_title": "Graduate Teaching Asst",
@@ -57,9 +60,10 @@ work_experience = {
         "start": "2020-08-01",
         "end": "2021-05-01",
         "bullets": [
-            "Instructing lab coding sessions and holding weekly office hours for undergraduate courses teaching OOP in Python"
+            "Instructing lab coding sessions and holding weekly office hours for undergraduate courses teaching OOP in python"
         ],
         "className": "gmu",
+        "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHtmV4ZuBz4MQ/company-logo_200_200/company-logo_200_200/0/1715605771209/george_mason_university_college_of_engineering_and_computing_logo?e=1749686400&v=beta&t=VvKOqZs4sjngfjDL4vaTYvecWrVG85k9w5yB4Zf5sK0",
     },
     5: {
         "job_title": "Data Science & ML Intern",
@@ -71,6 +75,7 @@ work_experience = {
             "Developed NER-based scripts to extract CEO information for 1.2M companies via web mining",
         ],
         "className": "selling",
+        "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQE71GztFp03VA/company-logo_200_200/company-logo_200_200/0/1705421353782/infotelligent_logo?e=1749686400&v=beta&t=DB2r3I9iXmyjcdHcz_3s1uvh9asmxTKVGS_4kPUO3lw",
     },
     6: {
         "job_title": "QA Specialist II",
@@ -78,13 +83,15 @@ work_experience = {
         "start": "2017-02-01",
         "end": "2019-07-01",
         "bullets": [
-            "Transitioned 95% of complaint code (including product and data investigations review) volume over to the Manila, Philippines office...",
+            "Transitioned 95% of complaint code (including product and data investigations review) volume over to the Manila, Philippines office during a four-month assignment abroad",
             "Successfully trained 100+ employees and new hires for the Quality Assurance team in Manila, Philippines",
-            "Led a process improvement project to identify sources of errors within product and data investigations...",
-            "Identified a bug in the sensor algorithm in conjunction with R&D engineering team and implemented a fix...",
-            "Department liaison between Quality Assurance dept. and Field Failure Analysis Lab...",
+            "Deployed processes and procedures to ensure effective transition of workload and continued workflow between San Diego and Manila locations"
+            "Led a process improvement project to identify sources of errors within product and data investigations, driving down error percentage from 12% to 5% in a duration of 10 months in conjunction with Field Failure Analysis Lab",
+            "Identified a bug in the sensor algorithm in conjunction with R&D engineering team and implemented a fix to reduce sensor malfunctions by 1% (5000 sensors) each month",
+            "Department liaison between Quality Assurance dept. and Field Failure Analysis Lab – worked with engineers in the lab to draft SOP’s and PI’s for failed product investigations and root cause analysis",
         ],
         "className": "dexcom",
+        "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQE3mpvPlafs2Q/company-logo_200_200/company-logo_200_200/0/1675797236800/dexcom_logo?e=1749686400&v=beta&t=-vrCuglmypNCIAojWf8VXOaJgHFGdNgCvD8bq2qMnXY",
     },
     7: {
         "job_title": "Research Associate",
@@ -92,12 +99,13 @@ work_experience = {
         "start": "2016-11-01",
         "end": "2017-06-01",
         "bullets": [
-            "Developed C++ code for lattice Monte Carlo simulation software...",
-            "Designed and executed experiments to characterize higher-order structures...",
-            "Implemented MATLAB scripts to visualize the morphology...",
-            "Automated the simulation process with Python to generate varied initialization parameters...",
+            "Developed C++ code for the lattice Monte Carlo simulation software to study the coarse-grained dynamics of nanoparticle diffusion and self – assembly in a polymer thin film. This study was critical in predicting and engineering electromechanical properties of advanced Nano – composite materials",
+            "Designed and executed an experiment to characterize the higher order structures formed by Nano particle diffusion and self – assembly",
+            "Implemented MATLAB scripts to visualize the morphology of the higher – order structures obtained from nanoparticle diffusion and self – assembly",
+            "Automated the simulation process by developing a Python program to generate input files of varying initialization parameters. These files were used as input arguments for the Monte Carlo simulation software enabling the team to run multiple simulations at once while also generating an efficient output of organized data sets",
         ],
         "className": "ucsd",
+        "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_200_200/company-logo_200_200/0/1630633790917/university_of_california_at_san_diego_logo?e=1749686400&v=beta&t=M9x4N2VgAkuaL0BlvuebhoHZO__Qn4zSqDINKOEsjno",
     },
     8: {
         "job_title": "Student Fundraiser",
@@ -105,12 +113,13 @@ work_experience = {
         "start": "2014-06-01",
         "end": "2015-04-01",
         "bullets": [
-            "Reached out to alumni and friends of the University to raise funds...",
+            "Reached out to alumni and friends of the University in order to raise fund for various Scholarships/Departments at UCSD",
             "Raised $18,000 during an 11-month span at the Telephone Outreach Program",
             "Achieved a participation (pledge) rate of 70%",
             "Awarded Top 5 Caller of the Month 8 out of 11 months in the program",
         ],
         "className": "ucsd",
+        "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_200_200/company-logo_200_200/0/1630633790917/university_of_california_at_san_diego_logo?e=1749686400&v=beta&t=M9x4N2VgAkuaL0BlvuebhoHZO__Qn4zSqDINKOEsjno",
     },
     9: {
         "job_title": "Internship",
@@ -118,10 +127,11 @@ work_experience = {
         "start": "2013-06-01",
         "end": "2013-08-01",
         "bullets": [
-            "Successfully built Polygon 1.0, a database and reporting system...",
-            "Enabled efficient data analysis by consolidating data from various platforms...",
+            "Successfully built Polygon 1.0, a database and reporting system, by collaborating data for 5000+ North American contractors",
+            "Enabled efficient data analysis by consolidating data from various platforms including OLAP Cubes, SharePoint lists and Excel files into a single data repository in Microsoft Excel",
         ],
         "className": "nielsen",
+        "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFKa_ObftR_8w/company-logo_200_200/company-logo_200_200/0/1634555714140/nielsen_logo?e=1749686400&v=beta&t=KrwvCxMUwQSPHRF471sWetxiKH2fUlGkV7GvhL2sEJY",
     },
     10: {
         "job_title": "Management Trainee",
@@ -134,5 +144,6 @@ work_experience = {
             "Researched and acquired prospective clients to expand client base",
         ],
         "className": "nielsen",
+        "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFKa_ObftR_8w/company-logo_200_200/company-logo_200_200/0/1634555714140/nielsen_logo?e=1749686400&v=beta&t=KrwvCxMUwQSPHRF471sWetxiKH2fUlGkV7GvhL2sEJY",
     },
 }
