@@ -3,7 +3,6 @@ from components.chatbot import chat_with_bot
 from components.contact import render_contact_section
 from components.info import render_intro_section
 from components.skills import render_skills_section
-from components.work_experience import render_career_snapshot
 from constant import *
 
 st.set_page_config(page_title="Template", layout="wide", page_icon="👧🏻")

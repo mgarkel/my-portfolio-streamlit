@@ -3,11 +3,8 @@ info = {
     "Name": "Manav",
     "Full_Name": "Manav Garkel",
     "Intro": "A Software Engineer with a passion for backend development, data engineering, and ML/AI technologies, driven to build scalable, intelligent systems that solve real-world problems",
-    "About": "I’m a backend-focused software engineer with a strong background in building scalable data systems, APIs, and automation pipelines. "
-    "I specialize in developing robust backend services that power intelligent applications—from financial forecasting tools to cloud-native data workflows. "
-    "My experience spans Python, Node.js, and Java, with expertise in databases like MongoDB, DynamoDB, and SQL-based systems. "
-    "I’ve designed and deployed solutions leveraging RESTful APIs, distributed processing, and large language models (LLMs) to turn raw data into actionable insights. "
-    "I’m passionate about solving complex problems at the intersection of data engineering, AI, and cloud infrastructure.",
+    "About": "Backend engineer focused on building scalable data systems, APIs, and automation workflows in Python."
+    " Experienced with SQL and NoSQL databases, cloud-native infrastructure, and integrating LLMs into production systems.",
     "City": "Alexandria, Virginia",
     "Photo": """""",
     "Email": "manav.garkel@gmail.com",

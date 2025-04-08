@@ -35,25 +35,15 @@ def render_intro_section(info: dict, lottie_url: str = None):
     # Sidebar profile image
     st.sidebar.markdown(info["Photo"], unsafe_allow_html=True)
 
-    # Load Lottie animation
-    lottie_gif = load_lottieurl(lottie_url) if lottie_url else None
-
     # Layout
     with st.container():
-        col1, col2 = st.columns([8, 3])
-
         full_name = info["Full_Name"]
-        with col1:
-            gradient(
-                "#FFD4DD",
-                "#000395",
-                "#e0fbfc",
-                f"Hi, I'm {full_name}👋",
-                info["Intro"],
-            )
-            st.write("")
-            st.write(info["About"])
-
-        with col2:
-            if lottie_gif:
-                st_lottie(lottie_gif, height=280, key="data")
+        gradient(
+            "#FFD4DD",
+            "#000395",
+            "#e0fbfc",
+            f"Hi, I'm {full_name}👋",
+            info["Intro"],
+        )
+        st.write("")
+        st.write(info["About"])
