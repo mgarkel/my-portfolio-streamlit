@@ -1,5 +1,5 @@
 info = {
-    "Pronoun": "him/he",
+    "Pronoun": "him",
     "Name": "Manav",
     "Full_Name": "Manav Garkel",
     "Intro": "A Software Engineer with a passion for backend development, data engineering, and ML/AI technologies, driven to build scalable, intelligent systems that solve real-world problems",
