@@ -2,7 +2,7 @@
 
 import streamlit as st
 import requests
-from streamlit_lottie import st_lottie
+from utils.general_utils import local_css, render_sidebar_photo
 
 
 def load_lottieurl(url: str):
@@ -10,13 +10,6 @@ def load_lottieurl(url: str):
     if r.status_code != 200:
         return None
     return r.json()
-
-
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(
-            "<style>{}</style>".format(f.read()), unsafe_allow_html=True
-        )
 
 
 def gradient(color1, color2, color3, content1, content2):
@@ -28,12 +21,12 @@ def gradient(color1, color2, color3, content1, content2):
     )
 
 
-def render_intro_section(info: dict, lottie_url: str = None):
+def render_intro_section(info: dict):
     # Load CSS
     local_css("style/style.css")
 
     # Sidebar profile image
-    st.sidebar.markdown(info["Photo"], unsafe_allow_html=True)
+    render_sidebar_photo()
 
     # Layout
     with st.container():

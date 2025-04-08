@@ -6,7 +6,7 @@ info = {
     "About": "Backend engineer focused on building scalable data systems, APIs, and automation workflows in Python."
     " Experienced with SQL and NoSQL databases, cloud-native infrastructure, and integrating LLMs into production systems.",
     "City": "Alexandria, Virginia",
-    "Photo": """""",
+    "Photo": "Images/personal_photo.jpg",
     "Email": "manav.garkel@gmail.com",
 }
 work_experience = {
