@@ -2,9 +2,10 @@ import streamlit as st
 from llama_index.core import (
     VectorStoreIndex,
     SimpleDirectoryReader,
-    ServiceContext,
+    Settings,
 )
 from llama_index.llms.openai import OpenAI
+from llama_index.embeddings.openai import OpenAIEmbedding
 from constant import info
 
 
@@ -39,14 +40,13 @@ def ask_bot(input_text, name, pronoun, openai_api_key):
     llm = OpenAI(
         model_name="gpt-3.5-turbo",
         temperature=0,
-        openai_api_key=openai_api_key,
+        api_key=openai_api_key,
     )
-    service_context = ServiceContext.from_defaults(llm=llm)
+
+    Settings.llm = llm
+    Settings.embed_model = OpenAIEmbedding(api_key=openai_api_key)
     documents = get_personal_bio_documents()
-    # load index
-    index = VectorStoreIndex.from_documents(
-        documents, service_context=service_context
-    )
+    index = VectorStoreIndex.from_documents(documents)
 
     # query LlamaIndex and GPT-3.5 for the AI's response
     PROMPT_QUESTION = f"""You are Buddy, an AI assistant dedicated to assisting {name} in her job search by providing recruiters with relevant and concise information. 
@@ -64,6 +64,7 @@ def ask_bot(input_text, name, pronoun, openai_api_key):
 
 def chat_with_bot():
     user_input = get_text()
+    print(f"user input: {user_input}")
     openai_api_key = get_open_api_key()
     if user_input and openai_api_key and openai_api_key.startswith("sk-"):
         try:
@@ -75,3 +76,7 @@ def chat_with_bot():
         except Exception as e:
             st.error("🚨 Something went wrong while querying the assistant.")
             st.exception(e)
+    elif not openai_api_key:
+        st.warning(
+            "Please enter a valid open api key that startswith sk-", icon="⚠"
+        )
