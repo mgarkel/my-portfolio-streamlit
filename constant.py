@@ -144,3 +144,33 @@ work_experience = {
         "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFKa_ObftR_8w/company-logo_200_200/company-logo_200_200/0/1634555714140/nielsen_logo?e=1749686400&v=beta&t=KrwvCxMUwQSPHRF471sWetxiKH2fUlGkV7GvhL2sEJY",
     },
 }
+
+hobbies = [
+    (
+        "🏋️‍♂️",
+        "Weightlifting",
+        "Building strength and discipline through consistent training.",
+    ),
+    ("🚶", "Daily Walks", "Time to decompress, reflect, and refresh."),
+    (
+        "🎸",
+        "Learning Guitar",
+        "Currently jamming through beginner songs and chords.",
+    ),
+    (
+        "🏎️",
+        "Formula 1",
+        "Obsessed with strategy and the speed — race days are sacred.",
+    ),
+    ("⚽", "Soccer", "Die-hard Manchester United fan. GGMU ❤️"),
+    (
+        "✈️",
+        "Travelling",
+        "Always planning the next adventure to explore new cultures.",
+    ),
+    (
+        "👨‍👩‍👧‍👦",
+        "Friends & Family",
+        "Making memories with the people who matter most.",
+    ),
+]

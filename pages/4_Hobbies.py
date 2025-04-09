@@ -1,4 +1,5 @@
 import streamlit as st
+from constant import hobbies
 from utils.general_utils import local_css, render_sidebar_photo
 
 st.set_page_config(page_title="Hobbies", page_icon="🎯")
@@ -9,37 +10,6 @@ render_sidebar_photo()
 st.title("🎯 Hobbies & Interests")
 
 st.markdown("Here’s a snapshot of what I enjoy outside of work:")
-
-# Define hobbies as (emoji, title, description)
-hobbies = [
-    (
-        "🏋️‍♂️",
-        "Weightlifting",
-        "Building strength and discipline through consistent training.",
-    ),
-    ("🚶", "Daily Walks", "Time to decompress, reflect, and refresh."),
-    (
-        "🎸",
-        "Learning Guitar",
-        "Currently jamming through beginner songs and chords.",
-    ),
-    (
-        "🏎️",
-        "Formula 1",
-        "Obsessed with strategy and the speed — race days are sacred.",
-    ),
-    ("⚽", "Soccer", "Die-hard Manchester United fan. GGMU ❤️"),
-    (
-        "✈️",
-        "Travelling",
-        "Always planning the next adventure to explore new cultures.",
-    ),
-    (
-        "👨‍👩‍👧‍👦",
-        "Friends & Family",
-        "Making memories with the people who matter most.",
-    ),
-]
 
 # Layout: 2 hobbies per row
 cols = st.columns(2)
