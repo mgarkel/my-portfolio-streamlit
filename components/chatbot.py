@@ -36,6 +36,10 @@ def get_personal_bio_documents():
 
 
 def ask_bot(input_text, name, pronoun, openai_api_key):
+    placeholder = st.empty()
+
+    # Show thinking message
+    placeholder.info("🤔 Thinking...")
     # define LLM
     llm = OpenAI(
         model_name="gpt-4o-mini",
@@ -59,7 +63,7 @@ def ask_bot(input_text, name, pronoun, openai_api_key):
         PROMPT_QUESTION.format(input=input_text)
     )
     print(f"output: {output}")
-    return output.response
+    placeholder.info(output.response)
 
 
 def chat_with_bot():
@@ -68,15 +72,7 @@ def chat_with_bot():
     openai_api_key = get_open_api_key()
     if user_input and openai_api_key and openai_api_key.startswith("sk-"):
         try:
-            st.info(
-                ask_bot(
-                    user_input, info["Name"], info["Pronoun"], openai_api_key
-                )
-            )
+            ask_bot(user_input, info["Name"], info["Pronoun"], openai_api_key)
         except Exception as e:
             st.error("🚨 Something went wrong while querying the assistant.")
             st.exception(e)
-    elif not openai_api_key:
-        st.warning(
-            "Please enter a valid open api key that startswith sk-", icon="⚠"
-        )
