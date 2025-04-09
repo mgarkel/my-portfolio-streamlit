@@ -38,7 +38,7 @@ def get_personal_bio_documents():
 def ask_bot(input_text, name, pronoun, openai_api_key):
     # define LLM
     llm = OpenAI(
-        model_name="gpt-3.5-turbo",
+        model_name="gpt-4o-mini",
         temperature=0,
         api_key=openai_api_key,
     )
@@ -52,7 +52,7 @@ def ask_bot(input_text, name, pronoun, openai_api_key):
     PROMPT_QUESTION = f"""You are Buddy, an AI assistant dedicated to assisting {name} in her job search by providing recruiters with relevant and concise information. 
     If you do not know the answer, politely admit it and let recruiters know how to contact {name} to get more information directly from {pronoun}. 
     Don't put "Buddy" or a breakline in the front of your answer.
-    Human: {input}
+    Human: {input_text}
     """
 
     output = index.as_query_engine().query(
