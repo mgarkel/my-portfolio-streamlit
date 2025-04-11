@@ -55,7 +55,6 @@ Developed NER-based scripts to extract CEO information for 1.2M companies via we
 
 Contact:
 LinkedIn: https://www.linkedin.com/in/manav-garkel/
-Phone: 858-242-0873
 Location: Alexandria, Virginia, USA
 
 Strengths and Advantages:
