@@ -60,7 +60,7 @@ def ask_bot(input_text, name, pronoun):
     # Create custom prompt template (note the double braces)
     prompt_template = PromptTemplate(
         f"You're an AI assistant dedicated to assist {name} in his job search by providing recruiters with relevant and concise information."
-        f"If you do not know the answer, politely admit it and let recruiters know ho to contact {name} to get more information directly from {pronoun}."
+        f"If you do not know the answer, politely admit it and let recruiters know how to contact {name} to get more information directly from {pronoun}."
         f"Don't put breakline in the front of your answer."
         f"Use the context below to answer the question.\n"
         "Context: {{context_str}}\n\n"

@@ -1,15 +1,7 @@
 # intro_section.py
 
 import streamlit as st
-import requests
 from utils.general_utils import local_css, render_sidebar_photo
-
-
-def load_lottieurl(url: str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
 
 
 def gradient(color1, color2, color3, content1, content2):

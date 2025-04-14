@@ -1,6 +1,9 @@
 # contact_section.py
 import os
 import streamlit as st
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 def render_contact_section(linkedin_url: str):
