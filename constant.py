@@ -1,29 +1,177 @@
 info = {
-   "Pronoun": "her", 
-   "Name": "Vicky",
-   "Full_Name": "Vicky Kuo",
-   "Intro": "A Tech Educator and AI Enthusiast at cognitiveclass.ai",
-   "About":"Hey there, I'm Vicky! I'm passionate about leveraging data and technology to drive meaningful insights and solutions in business. Check out my free courses and projects on cognitiveclass.ai: https://cognitiveclass.ai/",
-   "Tableau":"https://public.tableau.com/app/profile/vickytc/viz/SunnybrookTeam/Overview",
-   "Medium":"https://medium.com/@vicky-note/about",
-   "City":"Toronto, Canada",
-   "Photo":"""<a href=\"https://www.linkedin.com/in/vicky-tck/\"><img src=\"https://sn-assets.s3.us.cloud-object-storage.appdomain.cloud/projects/profile.png" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a>""",
-   "Email": "vicky.kuo.contact@gmail.com"
+    "Pronoun": "him",
+    "Name": "Manav",
+    "Full_Name": "Manav Garkel",
+    "Intro": "A Software Engineer with a passion for backend development, data engineering, and ML/AI technologies - driven to build scalable, intelligent systems that solve real-world problems",
+    "About": "Backend engineer focused on building scalable data systems, APIs, and automation workflows in Python."
+    " Experienced with SQL and NoSQL databases, cloud-native infrastructure, and integrating LLMs into production systems.",
+    "City": "Alexandria, Virginia",
+    "Photo": "Images/personal_photo.jpg",
+    "Email": "manav.garkel@gmail.com",
+    "LinkedIn": "https://www.linkedin.com/in/manav-garkel/",
+}
+work_experience = {
+    1: {
+        "job_title": "Sr Software Engineer",
+        "company": "Freddie Mac",
+        "start": "2021-05-01",
+        "end": "2025-04-01",
+        "bullets": [
+            "Developing a forecasting and analysis tool to reduce manual reporting, improve risk assessment accuracy, assess loan performance, and estimate loan loss and reserve requirements for Multi-Family loans",
+            "Collaborated with stakeholders to gather data and reporting requirements for ERCF capital reporting, leading end-to-end development through UAT and production deployment",
+            "Partnering with stakeholders to gather requirements and lead end-to-end development of capital forecasting reports by integrating financial forecasting results with ERCF spot capital, from initial design to production",
+            "Maintaining codebase with 100% unit test coverage, developing integration and regression tests, conducting code reviews, and mentoring junior engineers",
+            "Developed reusable microservices and APIs to provide streamlined access to company data sources, improving developer efficiency and integration workflows",
+        ],
+        "className": "freddie",
+        "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGzKBAwTUdgrw/company-logo_200_200/company-logo_200_200/0/1719929504536/freddie_mac_logo?e=1749686400&v=beta&t=HM12FwpIBpnYl20chy1oMq4hKCd7X3v_2UJUhgWmSN4",
+    },
+    2: {
+        "job_title": "AI Software Engineer",
+        "company": "Selling.com",
+        "start": "2023-03-01",
+        "end": "2024-03-01",
+        "bullets": [
+            "Built a web-scraping application to automate the collection and classification of 10,000 daily news articles, enabling a new feature in the premium subscription service that provides users with actionable insights on company events",
+            "Applied NER to extract company mentions and leveraged GPT-3.5/4-turbo for multi-label classification of news events (e.g., mergers, layoffs, product launches), driving structured, actionable insights from unstructured text",
+            "Architected a robust, cloud-native data pipeline with AWS DynamoDB, SQS, and S3 to support scalable processing and access to enriched classification data",
+        ],
+        "className": "selling",
+        "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQE71GztFp03VA/company-logo_200_200/company-logo_200_200/0/1705421353782/infotelligent_logo?e=1749686400&v=beta&t=DB2r3I9iXmyjcdHcz_3s1uvh9asmxTKVGS_4kPUO3lw",
+    },
+    3: {
+        "job_title": "Software Engineer",
+        "company": "Sync Layer Inc.",
+        "start": "2021-02-01",
+        "end": "2021-09-01",
+        "bullets": [
+            "Created a RESTFUL service that the main application consumes to send automated text messages to users",
+            "Implemented frontend and backend functionality to provide a new phone-number lookup feature",
+            "Designed and implemented a new algorithm to efficiently display data windows based on screen resolution and size",
+        ],
+        "className": "synclayer",
+        "logo_url": "https://www.synclayerinc.com/wp-content/uploads/2018/04/synclayer_logo.png",
+    },
+    4: {
+        "job_title": "Graduate Teaching Asst",
+        "company": "GMU",
+        "start": "2020-08-01",
+        "end": "2021-05-01",
+        "bullets": [
+            "Instructing lab coding sessions and holding weekly office hours for courses teaching OOP in python"
+        ],
+        "className": "gmu",
+        "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHtmV4ZuBz4MQ/company-logo_200_200/company-logo_200_200/0/1715605771209/george_mason_university_college_of_engineering_and_computing_logo?e=1749686400&v=beta&t=VvKOqZs4sjngfjDL4vaTYvecWrVG85k9w5yB4Zf5sK0",
+    },
+    5: {
+        "job_title": "Data Science & ML Intern",
+        "company": "Selling.com",
+        "start": "2020-05-01",
+        "end": "2020-08-01",
+        "bullets": [
+            "Built TF-IDF + SVM-based classification models with 90%+ accuracy to categorize 13M job titles by level and department",
+            "Developed NER-based scripts to extract CEO information for 1.2M companies via web mining",
+        ],
+        "className": "selling",
+        "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQE71GztFp03VA/company-logo_200_200/company-logo_200_200/0/1705421353782/infotelligent_logo?e=1749686400&v=beta&t=DB2r3I9iXmyjcdHcz_3s1uvh9asmxTKVGS_4kPUO3lw",
+    },
+    6: {
+        "job_title": "QA Specialist II",
+        "company": "Dexcom, Inc.",
+        "start": "2017-02-01",
+        "end": "2019-07-01",
+        "bullets": [
+            "Transitioned 95% of complaint code (including product and data investigations review) volume over to the Manila, Philippines office during a four-month assignment abroad",
+            "Successfully trained 100+ employees and new hires for the Quality Assurance team in Manila, Philippines",
+            "Deployed processes and procedures to ensure effective transition of workload and continued workflow between San Diego and Manila locations"
+            "Led a process improvement project to identify sources of errors within product and data investigations, driving down error percentage from 12% to 5% in a duration of 10 months in conjunction with Field Failure Analysis Lab",
+            "Identified a bug in the sensor algorithm in conjunction with R&D engineering team and implemented a fix to reduce sensor malfunctions by 1% (5000 sensors) each month",
+            "Department liaison between Quality Assurance dept. and Field Failure Analysis Lab – worked with engineers in the lab to draft SOP’s and PI’s for failed product investigations and root cause analysis",
+        ],
+        "className": "dexcom",
+        "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQE3mpvPlafs2Q/company-logo_200_200/company-logo_200_200/0/1675797236800/dexcom_logo?e=1749686400&v=beta&t=-vrCuglmypNCIAojWf8VXOaJgHFGdNgCvD8bq2qMnXY",
+    },
+    7: {
+        "job_title": "Research Associate",
+        "company": "UC San Diego",
+        "start": "2016-11-01",
+        "end": "2017-06-01",
+        "bullets": [
+            "Developed C++ code for the lattice Monte Carlo simulation software to study the coarse-grained dynamics of nanoparticle diffusion and self – assembly in a polymer thin film. This study was critical in predicting and engineering electromechanical properties of advanced Nano – composite materials",
+            "Designed and executed an experiment to characterize the higher order structures formed by Nano particle diffusion and self – assembly",
+            "Implemented MATLAB scripts to visualize the morphology of the higher – order structures obtained from nanoparticle diffusion and self – assembly",
+            "Automated the simulation process by developing a Python program to generate input files of varying initialization parameters. These files were used as input arguments for the Monte Carlo simulation software enabling the team to run multiple simulations at once while also generating an efficient output of organized data sets",
+        ],
+        "className": "ucsd",
+        "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_200_200/company-logo_200_200/0/1630633790917/university_of_california_at_san_diego_logo?e=1749686400&v=beta&t=M9x4N2VgAkuaL0BlvuebhoHZO__Qn4zSqDINKOEsjno",
+    },
+    8: {
+        "job_title": "Student Fundraiser",
+        "company": "UC San Diego",
+        "start": "2014-06-01",
+        "end": "2015-04-01",
+        "bullets": [
+            "Reached out to alumni and friends of the University in order to raise fund for various Scholarships/Departments at UCSD",
+            "Raised $18,000 during an 11-month span at the Telephone Outreach Program",
+            "Achieved a participation (pledge) rate of 70%",
+            "Awarded Top 5 Caller of the Month 8 out of 11 months in the program",
+        ],
+        "className": "ucsd",
+        "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_200_200/company-logo_200_200/0/1630633790917/university_of_california_at_san_diego_logo?e=1749686400&v=beta&t=M9x4N2VgAkuaL0BlvuebhoHZO__Qn4zSqDINKOEsjno",
+    },
+    9: {
+        "job_title": "Internship",
+        "company": "Nielsen Company",
+        "start": "2013-06-01",
+        "end": "2013-08-01",
+        "bullets": [
+            "Successfully built Polygon 1.0, a database and reporting system, by collaborating data for 5000+ North American contractors",
+            "Enabled efficient data analysis by consolidating data from various platforms including OLAP Cubes, SharePoint lists and Excel files into a single data repository in Microsoft Excel",
+        ],
+        "className": "nielsen",
+        "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFKa_ObftR_8w/company-logo_200_200/company-logo_200_200/0/1634555714140/nielsen_logo?e=1749686400&v=beta&t=KrwvCxMUwQSPHRF471sWetxiKH2fUlGkV7GvhL2sEJY",
+    },
+    10: {
+        "job_title": "Management Trainee",
+        "company": "Nielsen Company",
+        "start": "2011-07-01",
+        "end": "2012-03-01",
+        "bullets": [
+            "Prepared monthly deliverables and invoices to be sent out to clients",
+            "Assisted manager in client meetings",
+            "Researched and acquired prospective clients to expand client base",
+        ],
+        "className": "nielsen",
+        "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFKa_ObftR_8w/company-logo_200_200/company-logo_200_200/0/1634555714140/nielsen_logo?e=1749686400&v=beta&t=KrwvCxMUwQSPHRF471sWetxiKH2fUlGkV7GvhL2sEJY",
+    },
 }
 
-embed_rss= {
-    'rss':"""<div style="overflow-y: scroll; height:500px; background-color:white;"> <div id="retainable-rss-embed" 
-        data-rss="https://medium.com/feed/@vicky-note"
-        data-maxcols="3" 
-        data-layout="grid"
-        data-poststyle="inline" 
-        data-readmore="Read the rest" 
-        data-buttonclass="btn btn-primary" 
-        data-offset="0"></div></div> <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>"""
-}
-
-endorsements = {
-    "img1": "https://user-images.githubusercontent.com/90204593/238169843-12872392-f2f1-40a6-a353-c06a2fa602c5.png",
-    "img2": "https://user-images.githubusercontent.com/90204593/238171251-5f4c5597-84d4-4b4b-803c-afe74e739070.png",
-    "img3": "https://user-images.githubusercontent.com/90204593/238171242-53f7ceb3-1a71-4726-a7f5-67721419fef8.png"
-}
+hobbies = [
+    (
+        "🏋️‍♂️",
+        "Weightlifting",
+        "Building strength and discipline through consistent training.",
+    ),
+    ("🚶", "Daily Walks", "Time to decompress, reflect, and refresh."),
+    (
+        "🎸",
+        "Learning Guitar",
+        "Currently jamming through beginner songs and chords.",
+    ),
+    (
+        "🏎️",
+        "Formula 1",
+        "Obsessed with strategy and the speed — race days are sacred.",
+    ),
+    ("⚽", "Soccer", "Die-hard Manchester United fan. GGMU ❤️"),
+    (
+        "✈️",
+        "Travelling",
+        "Always planning the next adventure to explore new cultures.",
+    ),
+    (
+        "👨‍👩‍👧‍👦",
+        "Friends & Family",
+        "Making memories with the people who matter most.",
+    ),
+]

@@ -1,41 +1,76 @@
-About Vicky:
-Vicky is a seasoned professional with expertise in AI, Data Science, Blockchain, and Cloud technologies. Holding an undergraduate degree in Computer Science from the University of Techville (2010), Vicky is committed to delivering innovative solutions and offers valuable resources at cognitiveclass.ai.
+About Manav:
+Manav is a backend-focused software engineer with a strong background in building scalable data systems, APIs, and automation pipelines.
+Manav has specialized in developing robust backend services that power intelligent applications—from financial forecasting tools to cloud-native data workflows.
+Manav's experience spans Python, Node.js, and Java, with expertise in databases like MongoDB, DynamoDB, and SQL-based systems.
+Manav's designed and deployed solutions leveraging RESTful APIs, distributed processing, and large language models (LLMs) to turn raw data into actionable insights.
+Manav's passionate about solving complex problems at the intersection of data engineering, AI, and cloud infrastructure.
+Manav also has a Bachelor's of Science in Chemical Engineering from UC San Diego and a masters of Science in Computer Science from George Mason University.
 
 Work Experience:
-Data Scientist at IBM (2015-2019); Software Developer at IBM (2010-2015)
+Sr. Software Engineer at Freddie Mac (May 2021 - Current);
+Freelance Software and AI Developer at Selling.com (March 2023 - March 2024);
+Software Engineer at Sync Layer, Inc (Feb 2021 - Sep 2021);
+Graduate Teaching Assistant at George Mason University (Aug 2020 - May 2021);
+Data Science and Machine Learning Intern at Selling.com(May 2020 - Aug 2020);
+Quality Assurance Specialist at Dexcom, Inc (Feb 2017 - July 2019);
+Research Associate at UC San Diego Dept of Nano and Chemical Engineering (Nov 2016 - June 2017);
+Student Fundraiser at US San Diego Telephone Outreach Program (June 2014 - April 2015);
+Internship at Nielsen Company (Jun 2013 - Aug 2013);
+Management Trainee at Nielsen Company (July 2011 - March 2012);
 
 Career Goal:
-Vicky's career goal is to leverage their expertise in AI and emerging technologies to drive meaningful innovation and create solutions that positively impact businesses and society.
+Manav's career goal is to leverage their expertise in Data, AI and emerging technologies to drive meaningful innovation and create solutions that positively impact businesses and society.
 
 Skills: 
-AI, Data Science, Blockchain, Cloud, Python
+Languages: Python, Java, JavaScript, SQL, Bash, Groovy, C, C++, MATLAB
+Web & API Development: Flask, FastAPI, Streamlit, Node.js/Express, AngularJS, Grails, RESTful APIs, HTML5, CSS, jQuery, Requests
+Databases: Oracle, IBM DB2, Sybase, MSSQL, DynamoDB, MongoDB, Snowflake
+DevOps & Tools: Docker, Kubernetes, Jenkins, Git, Linux/Unix, Poetry, Conda, .venv, Pre-commit hooks, Oauth2.0, Postman, JIRA, Heroku, Twilio, Wireshark
+Cloud Platforms: AWS, GCP, Azure
+Testing & Automation: Pytest, monkeypatch, FitNesse, Integration & Regression Testing
+Data Science & ML: Pandas, NumPy, Scikit-learn, PySpark, Hadoop, Classification, Clustering, Recommendation Systems, Anomaly Detection, Association Rule Mining, Dimensionality Reduction, Data Preprocessing
+AI/LLMs: LLMs, RAG, Agentic Systems
+Other: Microservices, Agile Methodologies, Web Scraping
 
-Certification:
-IBM Applied AI Professional Certificate (2023)
 
 Achievements:
-Spearheaded AI projects at IBM, resulting in a 30% increase in user engagement.
-Utilized IBM's watsonx service to help over 1000 companies from various domains automate their HR processes, from hiring to onboarding, contributing to a 100% positive feedback rate from companies.
+Freddie Mac	Mclean, VA May 2021 - Current
+Sr. Software Engineer
+Developing a forecasting and analysis tool to reduce manual reporting, improve risk assessment accuracy, and accelerate credit decision-making for Multi-Family loans
+Collaborate with stakeholders to gather data and reporting requirements for ERCF capital reporting, leading end-to-end development through UAT and production deployment
+Partnering with stakeholders to gather requirements and lead end-to-end development of capital forecasting reports by integrating financial forecasting results with ERCF spot capital, from initial design to production
+Maintain codebase with 100% unit test coverage, develop integration and regression tests, conduct code reviews, and mentor junior engineers
+Developed reusable microservices and APIs to provide streamlined access to company data sources, improving developer efficiency and integration workflows;
+
+Selling.com	Alexandria, VA March 2023 - March 2024
+Freelance AI and Software Engineer
+Built a web-scraping application to automate the collection and classification of 10,000 daily news articles, enabling a new feature in the premium subscription service that provides users with actionable insights on company events
+Applied NER to extract company mentions and leveraged GPT-3.5/4-turbo for multi-label classification of news events (e.g., mergers, layoffs, product launches), driving structured, actionable insights from unstructured text
+Architected a robust, cloud-native data pipeline with AWS DynamoDB, SQS, and S3 to support scalable processing and access to enriched classification data;
+
+Selling.com	Fairfax, VA May 2020 - August 2020
+Data Science  and Machine Learning Intern
+Built TF-IDF + SVM-based classification models with 90%+ accuracy to categorize 13M job titles by level and department.
+Developed NER-based scripts to extract CEO information for 1.2M companies via web mining.;
 
 Contact:
-LinkedIn: https://www.linkedin.com/in/vicky-tck
-Phone: 123-456-789
-Location: Toronto, Ontario
+LinkedIn: https://www.linkedin.com/in/manav-garkel/
+Location: Alexandria, Virginia, USA
 
 Strengths and Advantages:
-Vicky's strengths lie in a profound passion for technology, innovative problem-solving, and client-centric solutions.
+Manav's strengths lie in a profound passion for technology, innovative problem-solving, and client-centric solutions.
+Manav is also a quick learner and is able to get up to speed with new teams, projects, code bases very quickly.
+Manav is also an efficient communicator.
 
 Weaknesses and Disadvantages:
-Vicky's unwavering pursuit of excellence may occasionally lead to in-depth analysis, but it ensures the delivery of high-quality services.
+Manav's unwavering pursuit of excellence may occasionally lead to in-depth analysis, but it ensures the delivery of high-quality services.
 
 Interests and Hobbies:
-Vicky's passion for technology extends into leisure hours, where they delve into the cutting-edge realm of GenAI, continuously pushing the boundaries of what can be achieved in various projects. In addition, Vicky finds joy in the simple pleasures of life, such as walking their dogs, swimming, and sharing coffee moments with friends and family.
-
-Portfolio:
-Explore Vicky's portfolio of innovative projects at cognitiveclass.ai, showcasing expertise and tailored solutions. This website also serves as a showcase for some of Vicky's remarkable projects. Constructed using generative AI and Python, the website aims to inspire visitors with innovative ideas on seamlessly integrating generative AI into their own portfolio websites. Feel free to explore and ignite your creativity!
+Manav's passion for technology extends into leisure hours, where they delve into the cutting-edge realm of GenAI, continuously pushing the boundaries of what can be achieved in various projects.
+In addition, Manav finds joy in the simple pleasures of life, such as spending quality time with friends and family, going on daily walks and to them gym with his wife, and enjoys reading and playing the guitar.
 
 Availability:
-Vicky is actively seeking new opportunities and is ready to start immediately.
+Manav is actively seeking new opportunities and is ready to start immediately.
 
 References:
 References are available upon request.
