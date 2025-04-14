@@ -83,7 +83,7 @@ work_experience = {
         "bullets": [
             "Transitioned 95% of complaint code (including product and data investigations review) volume over to the Manila, Philippines office during a four-month assignment abroad",
             "Successfully trained 100+ employees and new hires for the Quality Assurance team in Manila, Philippines",
-            "Deployed processes and procedures to ensure effective transition of workload and continued workflow between San Diego and Manila locations"
+            "Deployed processes and procedures to ensure effective transition of workload and continued workflow between San Diego and Manila locations",
             "Led a process improvement project to identify sources of errors within product and data investigations, driving down error percentage from 12% to 5% in a duration of 10 months in conjunction with Field Failure Analysis Lab",
             "Identified a bug in the sensor algorithm in conjunction with R&D engineering team and implemented a fix to reduce sensor malfunctions by 1% (5000 sensors) each month",
             "Department liaison between Quality Assurance dept. and Field Failure Analysis Lab – worked with engineers in the lab to draft SOP’s and PI’s for failed product investigations and root cause analysis",
