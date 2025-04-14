@@ -8,6 +8,7 @@ info = {
     "City": "Alexandria, Virginia",
     "Photo": "Images/personal_photo.jpg",
     "Email": "manav.garkel@gmail.com",
+    "LinkedIn": "https://www.linkedin.com/in/manav-garkel/",
 }
 work_experience = {
     1: {

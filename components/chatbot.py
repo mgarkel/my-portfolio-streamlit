@@ -20,7 +20,7 @@ load_dotenv()
 # get the user's input by calling the get_text function
 def get_text():
     input_text = st.text_input(
-        "After providing OpenAI API Key on the sidebar, you can send your questions and hit Enter to know more about me from my AI agent, Buddy!",
+        "Have a question about me? Ask my personal AI assistant, Buddy — a RAG-powered agent built to help recruiters quickly find the answers they need!",
         key="input",
     )
     if len(input_text.split()) > 10:
