@@ -16,7 +16,7 @@ work_experience = {
         "start": "2021-05-01",
         "end": "2025-04-01",
         "bullets": [
-            "Developing a forecasting and analysis tool to reduce manual reporting, improve risk assessment accuracy, and accelerate credit decision-making for Multi-Family loans",
+            "Developing a forecasting and analysis tool to reduce manual reporting, improve risk assessment accuracy, assess loan performance, and estimate loan loss and reserve requirements for Multi-Family loans",
             "Collaborated with stakeholders to gather data and reporting requirements for ERCF capital reporting, leading end-to-end development through UAT and production deployment",
             "Partnering with stakeholders to gather requirements and lead end-to-end development of capital forecasting reports by integrating financial forecasting results with ERCF spot capital, from initial design to production",
             "Maintaining codebase with 100% unit test coverage, developing integration and regression tests, conducting code reviews, and mentoring junior engineers",
@@ -57,7 +57,7 @@ work_experience = {
         "start": "2020-08-01",
         "end": "2021-05-01",
         "bullets": [
-            "Instructing lab coding sessions and holding weekly office hours for undergraduate courses teaching OOP in python"
+            "Instructing lab coding sessions and holding weekly office hours for courses teaching OOP in python"
         ],
         "className": "gmu",
         "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHtmV4ZuBz4MQ/company-logo_200_200/company-logo_200_200/0/1715605771209/george_mason_university_college_of_engineering_and_computing_logo?e=1749686400&v=beta&t=VvKOqZs4sjngfjDL4vaTYvecWrVG85k9w5yB4Zf5sK0",
