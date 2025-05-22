@@ -28,6 +28,8 @@ RUN poetry export \
 # 4. Copy your app
 COPY . /app
 
+# tell App Runner that your container listens on 8501
 EXPOSE 8501
 
-CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501"]
+# bind to all interfaces, let Streamlit pick port 8501
+CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0"]
