@@ -94,3 +94,4 @@ dmypy.json
 
 # Logs
 *.log
+streamlit-task-def.json
