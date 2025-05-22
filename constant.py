@@ -6,7 +6,7 @@ info = {
     "About": "Backend engineer focused on building scalable data systems, APIs, and automation workflows in Python."
     " Experienced with SQL and NoSQL databases, cloud-native infrastructure, and integrating LLMs into production systems.",
     "City": "Alexandria, Virginia",
-    "Photo": "Images/personal_photo.jpg",
+    "Photo": "images/personal_photo.jpg",
     "Email": "manav.garkel@gmail.com",
     "LinkedIn": "https://www.linkedin.com/in/manav-garkel/",
 }
