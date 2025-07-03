@@ -7,18 +7,20 @@ authors = [
     {email= "manav.garkel@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.9,<3.9.7 || >3.9.7,<4.0.0"
+#requires-python = ">=3.9,<3.9.7 || >3.9.7,<4.0.0"
 dependencies = [
     "pillow (>=11.1.0,<12.0.0)",
     "requests (>=2.32.3,<3.0.0)",
     "streamlit (>=1.44.1,<2.0.0)",
     "streamlit-lottie (>=0.0.5,<0.0.6)",
-    "llama-index (>=0.12.28,<0.13.0)",
-    "llama-cpp-python (>=0.3.8,<0.4.0)",
     "langchain (>=0.3.23,<0.4.0)",
     "streamlit-vis-timeline (>=0.3.0,<0.4.0)",
     "setuptools (>=78.1.0,<79.0.0)",
-    "python-dotenv (>=1.1.0,<2.0.0)"
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "langchain-community (>=0.3.27,<0.4.0)",
+    "openai (>=1.93.0,<2.0.0)",
+    "tiktoken (>=0.9.0,<0.10.0)",
+    "langchain-openai (>=0.3.27,<0.4.0)"
 ]
 
 
