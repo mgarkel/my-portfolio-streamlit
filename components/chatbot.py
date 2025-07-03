@@ -1,23 +1,19 @@
 import os
+from dotenv import load_dotenv
 
 import streamlit as st
-from llama_index.core import (
-    VectorStoreIndex,
-    SimpleDirectoryReader,
-    Settings,
-)
-from llama_index.core.response_synthesizers import get_response_synthesizer
-from llama_index.core.prompts import PromptTemplate
-from llama_index.core.query_engine import RetrieverQueryEngine
-from llama_index.llms.openai import OpenAI
-from llama_index.embeddings.openai import OpenAIEmbedding
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain_community.document_loaders import TextLoader
+from langchain.chains import RetrievalQA
+from langchain.prompts import PromptTemplate
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+
 from constant import info
-from dotenv import load_dotenv
 
 load_dotenv()
 
 
-# get the user's input by calling the get_text function
 def get_text():
     input_text = st.text_input(
         "Have a question about me? Ask my personal AI assistant, Buddy — a RAG-powered agent built to help recruiters quickly find the answers they need!",
@@ -29,71 +25,59 @@ def get_text():
     return input_text
 
 
-def get_personal_bio_documents():
-    documents = SimpleDirectoryReader(input_files=["bio.txt"]).load_data()
-    return documents
+def load_documents():
+    loader = TextLoader("bio.txt")
+    docs = loader.load()
+    splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+    return splitter.split_documents(docs)
 
 
-def ask_bot(input_text, name, pronoun):
+@st.cache_resource
+def load_qa_chain(name, pronoun):
+    api_key = os.getenv("OPENAPI_KEY")
+    embeddings = OpenAIEmbeddings(openai_api_key=api_key)
+    llm = ChatOpenAI(model="gpt-4o", temperature=0, openai_api_key=api_key)
+
+    docs = load_documents()
+    vectorstore = FAISS.from_documents(docs, embeddings)
+    retriever = vectorstore.as_retriever()
+
+    prompt = PromptTemplate(
+        template=(
+            f"You are an AI assistant that helps recruiters learn about {name}'s background and experience."
+            f"Use the provided context to answer. If unsure, say so and guide them to contact {name} directly for more info from {pronoun}.\n"
+            f"Try to keep your answer to 1-2 paragraphs."
+            f"Context:\n{{context}}\n\n"
+            f"Question: {{question}}\n\n"
+            f"Answer:"
+        ),
+        input_variables=["context", "question"],
+    )
+
+    return RetrievalQA.from_chain_type(
+        llm=llm,
+        retriever=retriever,
+        chain_type="stuff",
+        chain_type_kwargs={"prompt": prompt},
+        return_source_documents=False,
+    )
+
+
+def ask_bot(user_input, name, pronoun):
     placeholder = st.empty()
     placeholder.info("🤔 Thinking...")
 
-    # Load OpenAI API key from .env
-    openai_api_key = os.getenv("OPENAPI_KEY")
-    if not openai_api_key:
-        placeholder.error("❌ OPENAPI_KEY not found in environment.")
-        return
+    qa_chain = load_qa_chain(name, pronoun)
 
-    # Set up LLM and embedding model
-    llm = OpenAI(
-        model_name="gpt-4o-mini",
-        temperature=0,
-        api_key=openai_api_key,
-    )
-    Settings.llm = llm
-    Settings.embed_model = OpenAIEmbedding(api_key=openai_api_key)
-
-    # Load documents and build index
-    documents = get_personal_bio_documents()
-    index = VectorStoreIndex.from_documents(documents)
-
-    # Create custom prompt template (note the double braces)
-    prompt_template = PromptTemplate(
-        f"You're an AI assistant dedicated to assist {name} in his job search by providing recruiters with relevant and concise information."
-        f"If you do not know the answer, politely admit it and let recruiters know how to contact {name} to get more information directly from {pronoun}."
-        f"Don't put breakline in the front of your answer."
-        f"Use the context below to answer the question.\n"
-        "Context: {{context_str}}\n\n"
-        "Question: {{query_str}}\n\n"
-        "Answer:"
-    )
-
-    # Use retriever
-    retriever = index.as_retriever()
-
-    # Patch: Create a response synthesizer with your custom prompt
-    response_synthesizer = get_response_synthesizer(
-        text_qa_template=prompt_template
-    )
-
-    # Create a query engine with retriever + response synthesizer
-    query_engine = RetrieverQueryEngine(
-        retriever=retriever, response_synthesizer=response_synthesizer
-    )
-
-    # Query using the input text
-    output = query_engine.query(input_text)
-    print(f"output: {output}")
-
-    placeholder.info(output.response)
+    try:
+        response = qa_chain.invoke(user_input)
+        placeholder.info(response.get("result"))
+    except Exception as e:
+        st.error("🚨 Something went wrong while querying the assistant.")
+        st.exception(e)
 
 
 def chat_with_bot():
     user_input = get_text()
-    print(f"user input: {user_input}")
     if user_input:
-        try:
-            ask_bot(user_input, info["Name"], info["Pronoun"])
-        except Exception as e:
-            st.error("🚨 Something went wrong while querying the assistant.")
-            st.exception(e)
+        ask_bot(user_input, info["Name"], info["Pronoun"])
