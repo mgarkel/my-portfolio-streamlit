@@ -81,8 +81,3 @@ def chat_with_bot():
     user_input = get_text()
     if user_input:
         ask_bot(user_input, info["Name"], info["Pronoun"])
-
-
-if __name__ == "__main__":
-    st.title("🤖 Buddy - Your Personal AI Assistant")
-    chat_with_bot()
