@@ -5,6 +5,8 @@ Manav's experience spans Python, Node.js, and Java, with expertise in databases 
 Manav's designed and deployed solutions leveraging RESTful APIs, distributed processing, and large language models (LLMs) to turn raw data into actionable insights.
 Manav's passionate about solving complex problems at the intersection of data engineering, AI, and cloud infrastructure.
 Manav also has a Bachelor's of Science in Chemical Engineering from UC San Diego and a masters of Science in Computer Science from George Mason University.
+LinkedIn contact url: https://www.linkedin.com/in/manav-garkel/
+Location: Alexandria, Virginia, USA
 
 Work Experience:
 Sr. Software Engineer at Freddie Mac (May 2021 - Current);
@@ -52,10 +54,6 @@ Selling.com	Fairfax, VA May 2020 - August 2020
 Data Science  and Machine Learning Intern
 Built TF-IDF + SVM-based classification models with 90%+ accuracy to categorize 13M job titles by level and department.
 Developed NER-based scripts to extract CEO information for 1.2M companies via web mining.;
-
-Contact:
-LinkedIn: https://www.linkedin.com/in/manav-garkel/
-Location: Alexandria, Virginia, USA
 
 Strengths and Advantages:
 Manav's strengths lie in a profound passion for technology, innovative problem-solving, and client-centric solutions.
