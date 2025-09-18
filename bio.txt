@@ -1,5 +1,5 @@
 About Manav:
-Manav is a backend-focused software engineer with a strong background in building scalable data systems, APIs, and automation pipelines.
+Manav is a backend-focused software engineer with a strong background in building scalable backend and data systems, APIs, and AI-powered solutions.
 Manav has specialized in developing robust backend services that power intelligent applications—from financial forecasting tools to cloud-native data workflows.
 Manav's experience spans Python, Node.js, and Java, with expertise in databases like MongoDB, DynamoDB, and SQL-based systems.
 Manav's designed and deployed solutions leveraging RESTful APIs, distributed processing, and large language models (LLMs) to turn raw data into actionable insights.
@@ -7,6 +7,13 @@ Manav's passionate about solving complex problems at the intersection of backend
 Manav also has a Bachelor's of Science in Chemical Engineering from UC San Diego and a masters of Science in Computer Science from George Mason University.
 LinkedIn contact url: https://www.linkedin.com/in/manav-garkel/
 Location: Alexandria, Virginia, USA
+
+Current Employment:
+Manav currently works as a Sr. Software Engineer at Freddie Mac since May 2021. This is his present job and current role. In his current position at Freddie Mac, Manav is:
+• Developing Mercury+, a Flask-based Python forecasting and analysis platform enabling Freddie Mac's finance division to forecast loans and securities performance under varying economic scenarios, improving risk and loss assessments, and significantly reducing manual reporting.
+• Led a 12-month initiative for ERCF capital reporting reducing a 24–48 hour manual reporting process to 15 minutes, acting as both project manager and lead engineer— drove the project through development and user acceptance testing, conducting in-depth financial analysis to validate Mercury+ outputs against acceptance criteria while ensuring on-time production deployment.
+• Leading development of an ETL feature that integrates forecasted loan and securities performance with capital calculations, enabling the company to project future capital requirements vastly improving and automating Freddie Mac's risk-assessment efforts.
+• Developed a Python microservice with FastAPI to deliver streamlined, secure, and high-performance access to company data sources, implementing OAuth 2.0 authentication to prevent unauthorized access.
 
 Work Experience:
 
