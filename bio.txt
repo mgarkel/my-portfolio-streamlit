@@ -3,57 +3,80 @@ Manav is a backend-focused software engineer with a strong background in buildin
 Manav has specialized in developing robust backend services that power intelligent applications—from financial forecasting tools to cloud-native data workflows.
 Manav's experience spans Python, Node.js, and Java, with expertise in databases like MongoDB, DynamoDB, and SQL-based systems.
 Manav's designed and deployed solutions leveraging RESTful APIs, distributed processing, and large language models (LLMs) to turn raw data into actionable insights.
-Manav's passionate about solving complex problems at the intersection of data engineering, AI, and cloud infrastructure.
+Manav's passionate about solving complex problems at the intersection of backend and data engineering, AI, and cloud infrastructure.
 Manav also has a Bachelor's of Science in Chemical Engineering from UC San Diego and a masters of Science in Computer Science from George Mason University.
 LinkedIn contact url: https://www.linkedin.com/in/manav-garkel/
 Location: Alexandria, Virginia, USA
 
 Work Experience:
-Sr. Software Engineer at Freddie Mac (May 2021 - Current);
-Freelance Software and AI Developer at Selling.com (March 2023 - March 2024);
-Software Engineer at Sync Layer, Inc (Feb 2021 - Sep 2021);
-Graduate Teaching Assistant at George Mason University (Aug 2020 - May 2021);
-Data Science and Machine Learning Intern at Selling.com(May 2020 - Aug 2020);
-Quality Assurance Specialist at Dexcom, Inc (Feb 2017 - July 2019);
-Research Associate at UC San Diego Dept of Nano and Chemical Engineering (Nov 2016 - June 2017);
-Student Fundraiser at US San Diego Telephone Outreach Program (June 2014 - April 2015);
-Internship at Nielsen Company (Jun 2013 - Aug 2013);
-Management Trainee at Nielsen Company (July 2011 - March 2012);
+
+Sr. Software Engineer at Freddie Mac (May 2021 - Current):
+• Developing Mercury+, a Flask-based Python forecasting and analysis platform enabling Freddie Mac's finance division to forecast loans and securities performance under varying economic scenarios, improving risk and loss assessments, and significantly reducing manual reporting.
+• Led a 12-month initiative for ERCF capital reporting reducing a 24–48 hour manual reporting process to 15 minutes, acting as both project manager and lead engineer— drove the project through development and user acceptance testing, conducting in-depth financial analysis to validate Mercury+ outputs against acceptance criteria while ensuring on-time production deployment.
+• Leading development of an ETL feature that integrates forecasted loan and securities performance with capital calculations, enabling the company to project future capital requirements vastly improving and automating Freddie Mac's risk-assessment efforts.
+• Developed a Python microservice with FastAPI to deliver streamlined, secure, and high-performance access to company data sources, implementing OAuth 2.0 authentication to prevent unauthorized access.
+
+AI Software Engineer at Selling.com (March 2023 - March 2024):
+• Engineered a new capability for a B2B sales platform to deliver daily ingested corporate news, enabling sales teams to personalize outreach.
+• Designed and automated a web-scraping ETL pipeline to collect and process 10,000+ news articles per day.
+• Integrated GPT-3.5/4-turbo for named entity recognition to extract company names and utilized few-shot prompting for multi-label classification of news articles across 21 categories.
+• Architected and built a robust, scalable, cloud-native data pipeline using AWS DynamoDB, SQS, and S3 for high availability and performance.
+
+Software Engineering Intern at SyncLayer Inc. (Feb 2021 - Sep 2021):
+• Developed features for a geospatial analytics web-application that ingests historical and live mobile tower data, enabling law enforcement agencies to track suspect movements and investigate crime scenes more efficiently.
+• Enhanced the SMS orchestration service in Groovy using Twilio API to send users automated text messages based on user alerts and notification settings
+• Implemented frontend (vanilla JS) and backend (Groovy) functionality in the web-application to provide users a new phone number lookup feature using Twilio API
+
+Graduate Teaching Assistant at George Mason University (Aug 2020 - May 2021):
+• Instructing lab coding sessions and holding weekly office hours for courses teaching OOP in python
+
+Data Science & ML Intern at Selling.com (May 2020 - Aug 2020):
+• Built TF-IDF + SVM-based classification models with 90%+ accuracy to categorize 13M job titles by level and department
+• Developed NER-based scripts to extract CEO information for 1.2M companies via web mining
+
+QA Specialist II at Dexcom, Inc. (Feb 2017 - July 2019):
+• Transitioned 95% of complaint code (including product and data investigations review) volume over to the Manila, Philippines office during a four-month assignment abroad
+• Successfully trained 100+ employees and new hires for the Quality Assurance team in Manila, Philippines
+• Deployed processes and procedures to ensure effective transition of workload and continued workflow between San Diego and Manila locations
+• Led a process improvement project to identify sources of errors within product and data investigations, driving down error percentage from 12% to 5% in a duration of 10 months in conjunction with Field Failure Analysis Lab
+• Identified a bug in the sensor algorithm in conjunction with R&D engineering team and implemented a fix to reduce sensor malfunctions by 1% (5000 sensors) each month
+• Department liaison between Quality Assurance dept. and Field Failure Analysis Lab – worked with engineers in the lab to draft SOP's and PI's for failed product investigations and root cause analysis
+
+Research Associate at UC San Diego (Nov 2016 - June 2017):
+• Developed C++ code for the lattice Monte Carlo simulation software to study the coarse-grained dynamics of nanoparticle diffusion and self – assembly in a polymer thin film. This study was critical in predicting and engineering electromechanical properties of advanced Nano – composite materials
+• Designed and executed an experiment to characterize the higher order structures formed by Nano particle diffusion and self – assembly
+• Implemented MATLAB scripts to visualize the morphology of the higher – order structures obtained from nanoparticle diffusion and self – assembly
+• Automated the simulation process by developing a Python program to generate input files of varying initialization parameters. These files were used as input arguments for the Monte Carlo simulation software enabling the team to run multiple simulations at once while also generating an efficient output of organized data sets
+
+Student Fundraiser at UC San Diego (June 2014 - April 2015):
+• Reached out to alumni and friends of the University in order to raise fund for various Scholarships/Departments at UCSD
+• Raised $18,000 during an 11-month span at the Telephone Outreach Program
+• Achieved a participation (pledge) rate of 70%
+• Awarded Top 5 Caller of the Month 8 out of 11 months in the program
+
+Internship at Nielsen Company (Jun 2013 - Aug 2013):
+• Successfully built Polygon 1.0, a database and reporting system, by collaborating data for 5000+ North American contractors
+• Enabled efficient data analysis by consolidating data from various platforms including OLAP Cubes, SharePoint lists and Excel files into a single data repository in Microsoft Excel
+
+Management Trainee at Nielsen Company (July 2011 - March 2012):
+• Prepared monthly deliverables and invoices to be sent out to clients
+• Assisted manager in client meetings
+• Researched and acquired prospective clients to expand client base
 
 Career Goal:
-Manav's career goal is to leverage their expertise in Data, AI and emerging technologies to drive meaningful innovation and create solutions that positively impact businesses and society.
+Manav is a Software Engineer with 4+ years of experience building scalable backend systems, APIs, and AI-powered solutions. He is seeking a backend-focused role involving GenAI feature development to deliver high-impact, production-ready products. Manav's broader career goal is to leverage his expertise in Data, AI and emerging technologies to drive meaningful innovation and create solutions that positively impact businesses and society.
 
-Skills: 
-Languages: Python, Java, JavaScript, SQL, Bash, Groovy, C, C++, MATLAB
-Web & API Development: Flask, FastAPI, Streamlit, Node.js/Express, AngularJS, Grails, RESTful APIs, HTML5, CSS, jQuery, Requests
+Skills:
+Languages: Python, Java, JavaScript, SQL, Bash, Groovy, PySpark, C, C++, MATLAB
+Web & API Development: Flask, FastAPI, Requests, Streamlit, Node.js/Express, RESTful APIs, HTML5, CSS, jQuery
 Databases: Oracle, IBM DB2, Sybase, MSSQL, DynamoDB, MongoDB, Snowflake
-DevOps & Tools: Docker, Kubernetes, Jenkins, Git, Linux/Unix, Poetry, Conda, .venv, Pre-commit hooks, Oauth2.0, Postman, JIRA, Heroku, Twilio, Wireshark
+DevOps & Tools: Docker, Kubernetes, CI-CD, Jenkins, Git, Linux/Unix, Poetry, Oauth2.0, Postman
 Cloud Platforms: AWS, GCP, Azure
 Testing & Automation: Pytest, monkeypatch, FitNesse, Integration & Regression Testing
-Data Science & ML: Pandas, NumPy, Scikit-learn, PySpark, Hadoop, Classification, Clustering, Recommendation Systems, Anomaly Detection, Association Rule Mining, Dimensionality Reduction, Data Preprocessing
-AI/LLMs: LLMs, RAG, Agentic Systems
-Other: Microservices, Agile Methodologies, Web Scraping
+AI & ML: LangChain, LangGraph, OpenAI, ChromaDB, FAISS, llama-index, Scikit-learn
+Other: Pandas, NumPy, Microservices, Agile Methodologies, JIRA
 
 
-Achievements:
-Freddie Mac	Mclean, VA May 2021 - Current
-Sr. Software Engineer
-Developing a forecasting and analysis tool to reduce manual reporting, improve risk assessment accuracy, and accelerate credit decision-making for Multi-Family loans
-Collaborate with stakeholders to gather data and reporting requirements for ERCF capital reporting, leading end-to-end development through UAT and production deployment
-Partnering with stakeholders to gather requirements and lead end-to-end development of capital forecasting reports by integrating financial forecasting results with ERCF spot capital, from initial design to production
-Maintain codebase with 100% unit test coverage, develop integration and regression tests, conduct code reviews, and mentor junior engineers
-Developed reusable microservices and APIs to provide streamlined access to company data sources, improving developer efficiency and integration workflows;
-
-Selling.com	Alexandria, VA March 2023 - March 2024
-Freelance AI and Software Engineer
-Built a web-scraping application to automate the collection and classification of 10,000 daily news articles, enabling a new feature in the premium subscription service that provides users with actionable insights on company events
-Applied NER to extract company mentions and leveraged GPT-3.5/4-turbo for multi-label classification of news events (e.g., mergers, layoffs, product launches), driving structured, actionable insights from unstructured text
-Architected a robust, cloud-native data pipeline with AWS DynamoDB, SQS, and S3 to support scalable processing and access to enriched classification data;
-
-Selling.com	Fairfax, VA May 2020 - August 2020
-Data Science  and Machine Learning Intern
-Built TF-IDF + SVM-based classification models with 90%+ accuracy to categorize 13M job titles by level and department.
-Developed NER-based scripts to extract CEO information for 1.2M companies via web mining.;
 
 Strengths and Advantages:
 Manav's strengths lie in a profound passion for technology, innovative problem-solving, and client-centric solutions.
